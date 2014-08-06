@@ -32,7 +32,10 @@ h2 {
 	border-bottom: 1px solid #ddd;
 }
 
-body { background: #eee; }
+body {
+	background: #333;
+	font: 300 14px 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	}
 
 /* === Redefines some stuff in inline mode === */
 body#inline-body {
@@ -189,16 +192,18 @@ textarea.code {
 		with display:block on the main-cell link, let's disable this
 		padding: .9em;
 	*/
-	background: #e6e6e6;
+	background-color: #444;
 	text-align: center;
 }
 
 #admin-content .enabled td {
+	background-color: #666;
 	background: inherit;
 } 
 
 #admin-content td.main-cell {
 	width: 30%;
+	background-color: #666;
 	text-align: left;
 }
 
@@ -775,7 +780,7 @@ textarea.code {
 		with display:block on the main-cell link, let's disable this
 		padding: .9em;
 	*/
-	background: #e6e6e6;
+	background: #666;
 	text-align: center;
 }
 
@@ -791,7 +796,7 @@ textarea.code {
 #admin-content th {
 	font-size: 0.75em;
 	font-style: italic;
-	background: #ccc;
+	background: #888;
 	text-align: center;
 	padding: 8px
 }

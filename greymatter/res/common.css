@@ -6,10 +6,12 @@ Grey Matter CSS Styles
 
 /* ===== GENERAL (redefinition HTML tag) ===== */
 html {
-	font-size: 85%;
-	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	border-top: 5px solid #fc0;
+	font: 300 21px 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-weight: 300;
 	margin: 0;
-	padding: 0
+	padding: 0;
+	text-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
 }
 
 body {
@@ -17,12 +19,12 @@ body {
 	padding: 0;
 	text-align:center;
 	background-color: #333;
-	color: black;
+	color:#ddd;
 }
 
 hr { display: none }
 
-p { margin: .5em 0 }
+p {}
 
 img { border: none }
 
@@ -67,7 +69,6 @@ fieldset {
 }
 
 legend {
-	color: #666666;
 	font-size: 80%;
 	font-style: oblique
 }
@@ -86,7 +87,7 @@ input:hover, input:focus, textarea:hover, textarea:focus {
 
 textarea {
 	font-size: 100%;
-	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 	width: 99%;
 	margin-top: .1em;
 	margin-bottom: 1em
@@ -97,13 +98,15 @@ textarea {
 /* ===== LINKS GENERAL ===== */
 a:link, a:visited {
 	color: #fc0;
-	font-weight: bold;
-	text-decoration: none
+	text-decoration: none;
+	-webkit-transition: color 250ms;
+    -moz-transition: color 250ms;
+    transition: color 250ms;
 }
 
 a:hover {
-	color: #c37676;
-	text-decoration: underline
+	color: #f90;
+	text-decoration: none
 }
 
 
@@ -120,21 +123,26 @@ h2 {}
 
 h3 {
 	/* Titles of the entry */
-	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-	font-size: 2.5em;
+	font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-size: 1.5em;
 	color: #fc0 !important;
-	margin: 0
+	margin: 0;
+	font-weight: bold;
+	margin-bottom: 0.83em;
 }
 
-h4 { font-size: 1.2em; }
+h4 {
+	font-size: 1.1em;
+	color: #ddd;
+	 }
 
 
 
 /* ===== DIV CONTAINER ALL ELEMENTS BLOCK ===== */
 #body-container {
 	text-align: left;
-	width: 978px !important;
-	width: 978px; /* fix for I.E. */
+	width: 100%;
+	max-width: 978px;
 	margin: 0 auto 0 auto;
 	padding: 5px;
 	background-color: #333
@@ -145,10 +153,10 @@ h4 { font-size: 1.2em; }
 /* ===== HEAD ===== */
 #head {
 	text-align: left;
-	width: 978px !important;
-	width: 978px; /* fix for I.E. */
+	width: 100%;
+	max-width: 978px;
 	margin: 0 auto 0 auto;
-	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 	padding: 10px 10px 5px 25px;
 	background-color: #333;
 }
@@ -181,7 +189,7 @@ h4 { font-size: 1.2em; }
 #main {
 	float:left;
 	position: relative;
-	width: 75%;
+	width: 74%;
 	font-size: 100%;
 	padding: 12px;
 	background-color: #444;
@@ -190,8 +198,7 @@ h4 { font-size: 1.2em; }
 
 #main p {
 	line-height: 1.5em;
-	margin-top: 1.2em;
-	font-size: 18px;
+	margin-top: 21px;
 	color: #ddd;
 }
 
@@ -200,7 +207,7 @@ h4 { font-size: 1.2em; }
 /* === List === */
 #main ul {
 	list-style-type: disc;
-	padding: 0 0 0 1.6em
+	padding: 0 0 0 .5em
 }
 
 #main ol {
@@ -243,15 +250,15 @@ h4 { font-size: 1.2em; }
 	}
 	/* end of .entry */
 	
-	#main ul.entry-footer { /*  entry footer */
+	#main ul.entry-header { /*  entry footer */
 		clear: both;
 		font-size: 80%;
-		color: gray;
-		margin: 2em 0 .5em 0;
-		text-align: right;
+		color: #ddd;
+		margin: 0em 0 0em 0;
+		text-align: left;
 	}
 	
-	.entry-footer li { 
+	.entry-header li { 
 		display: block;
 	}
 	
