@@ -7,16 +7,18 @@
 				<a href="{$id|link:post_link}">
 				{$subject|tag:the_title}
 				</a>
-				</h3>	
-				<ul class="entry-header">
-				<li class="entry-info">{if ($categories)}{$categories|@filed}{/if} {$date|date_format_daily:"`$fp_config.locale.dateformat`"} {$author} 
+				</h3>
+				<span class="post-category">
+				{if ($categories)}{$categories|@filed}{/if}
+				</span>
+				<div class="entry-header">
+				{$date|date_format_daily:"`$fp_config.locale.dateformat`"} by {$author}<br>
 				{if !(in_array('commslock', $categories) && !$comments)}
 				<a href="{$id|link:comments_link}#comments">{$comments|tag:comments_number} 
 					{if isset($views)}(<strong>{$views}</strong> views){/if}
 				</a>
-				{/if}
-				</li> 
-				</ul>
+				{/if}				
+				</div>
 				{$content|tag:the_content}
 				
 			
