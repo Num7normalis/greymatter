@@ -1,11 +1,11 @@
 <?php
 /*  
 Style Name: Grey Matter
-Style URI: http://marcthibeault.com
+Style URI: http://www.marcthibeault.com
 Description: Default Grey Matter style
 Version: 1.0
 Author: Marc Thibeault
-Author URI: http://marcthibeault.com
+Author URI: http://www.marcthibeault.com
 */
 
 
@@ -13,7 +13,7 @@ Author URI: http://marcthibeault.com
 	
 	$style['name'] = 'greymatter';
 	$style['author'] = 'Marc Thibeault';
-	$style['www'] = 'http://marcthibeault.com';
+	$style['www'] = 'http://www.marcthibeault.com';
 	
 	$style['version'] = 1.0;
 		
