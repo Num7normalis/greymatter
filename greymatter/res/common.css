@@ -296,8 +296,8 @@ h4 {
 	}
 	
 	.navigation { /* next entries & previous entries link */
-		font-size: 80%;
-		margin-bottom: 5em
+		font-size: 90%;
+		margin-bottom: 1em
 	}
 
 
@@ -314,7 +314,6 @@ span.post-category {
 	display: inline-block;
 	font-size: 80%;
 	font-weight: bold;
-	color:white;
 	position: absolute;
 	margin-left: -22px;
 	padding: 6px 10px 8px;
@@ -333,6 +332,9 @@ span.post-category {
 	background-image: linear-gradient(to bottom, #9e2812 0%, #6f0d0d 100%);
 	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#9e2812', endColorstr='#6f0d0d',GradientType=0 );
 }
+
+.post-category a{color: white;}
+.post-category a:hover{color: #f90;}
 
 .post-category:before {
 	content: "";
