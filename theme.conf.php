@@ -15,7 +15,7 @@ Author URI: http://www.marcthibeault.com
 	$theme['description'] = 'A modern FlatPress theme in tones of dark grey';
 	
 	
-	$theme['version'] = 1.0;
+	$theme['version'] = 1.1;
 		
 	$theme['style_def'] = 'style.css';
 	$theme['style_admin'] = 'admin.css';

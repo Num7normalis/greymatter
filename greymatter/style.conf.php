@@ -15,7 +15,7 @@ Author URI: http://www.marcthibeault.com
 	$style['author'] = 'Marc Thibeault';
 	$style['www'] = 'http://www.marcthibeault.com';
 	
-	$style['version'] = 1.0;
+	$style['version'] = 1.1;
 		
 	$style['style_def'] = 'style.css';
 	$style['style_admin'] = 'admin.css';
