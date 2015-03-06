@@ -352,6 +352,7 @@ input.maxsize, select.maxsize { width: 100% }
 /* ===== WIDGET PANEL ====== */
 
 #admin-widgetset-list {
+	color: black;
 	width: 30em;
 }
 
@@ -415,6 +416,7 @@ li.admin-widgetset {
 
 li.widget-instance,
 li.widget-class {
+	color: black;
 	cursor: move;
 	border: 1px solid #bbb;
 	margin: 2px;
