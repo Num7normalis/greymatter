@@ -29,10 +29,10 @@ Grey Matter CSS Styles
 }
 
 .notifications,.enabled {
-	color : #1d901d;
+	color : #fff;
 	border-top: 1px solid #bbffbb;
 	border-bottom: 1px solid #bbffbb;
-	background: #ddffdd
+	background: #696
 }
 
 .warnings {
