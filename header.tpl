@@ -10,9 +10,16 @@
 </head>
 
 <div id="head">
-			<h1><a href="{$smarty.const.BLOG_BASEURL}">{$flatpress.title}</a></h1>
-			<p class="subtitle">{$flatpress.subtitle}</p>
-		</div> <!-- end of #head -->
+	<div id="menu">
+		{widgets pos=top}
+		<div id="{$id}" class="topw">
+		{$content}
+		</div>
+		{/widgets}
+	</div>
+	<h1><a href="{$smarty.const.BLOG_BASEURL}">{$flatpress.title}</a></h1>
+	<p class="subtitle">{$flatpress.subtitle}</p>
+</div> <!-- end of #head -->
 
 <body>
 	<div id="body-container">
