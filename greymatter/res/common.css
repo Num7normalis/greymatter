@@ -316,7 +316,7 @@ h4 {
 	/* .entry class */
 	.entry {
 		margin: 0 0 1.5em 0;
-		padding: 0.5em;
+		padding: 1.5em 1em 1.5em 1em;
 		border-bottom: 1px solid #555;
 		box-shadow: 0 0.9px 0 #2f2f2f;
 		overflow: auto; /* floating images fix IE<7*/
@@ -402,7 +402,7 @@ span.post-category {
 	font-size: 80%;
 	font-weight: bold;
 	position: absolute;
-	margin-left: -20px;
+	margin-left: -31px;
 	padding: 6px 10px 8px;
 	padding-left: 30px;
 	-webkit-border-radius: 0 5px 5px 0;
