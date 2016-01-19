@@ -157,17 +157,6 @@ h4 {
 	}
 
 /* MENU*/
-#menu {
-	font-weight:bold;
-    text-transform: uppercase;
-    font-size: 0.9em;
-	margin: 0px auto;
-	padding: 30px;
-	text-align: right;
-	/*width: 960px;*/
-  	line-height:20px;
-  	float: right;
-}
 #menu ul{
 	height: 11px;
 	list-style: none;
@@ -223,6 +212,17 @@ h4 {
 		font-size: 100%;
 		padding: 12px;
 	}
+
+	#menu {
+		font-weight:bold;
+	    text-transform: uppercase;
+	    font-size: 0.9em;
+		margin: 0px auto;
+		padding: 30px 30px 30px 30px;
+		text-align: right;
+	  	line-height:20px;
+	  	float: right;
+	}
 }
 
 /* ===== RESPONSIVE DESIGN ===== */
@@ -244,6 +244,17 @@ h4 {
 		width: 96%;
 		font-size: 100%;
 		padding: 12px;
+	}
+
+	#menu {
+		font-weight:bold;
+	    text-transform: uppercase;
+	    font-size: 0.9em;
+		margin: 0px auto;
+		padding: 0px 0px 40px 0px;
+		text-align: center;
+	  	line-height:25px;
+	  	float: right;
 	}
 }
 
