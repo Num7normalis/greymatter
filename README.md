@@ -1,5 +1,4 @@
-##GreyMatter (Responsive FlatPress Theme)
-####v1.1
+##GreyMatter: Responsive FlatPress Theme
 A modern FlatPress theme in tones of dark grey, inspired by a theme available for the Jekyll blog engine. It feels actual, modern and it is responsive: It looks and works great on mobile devices. It's compatible with Internet Explorer too. 
 
 ###Preview
