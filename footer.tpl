@@ -2,6 +2,16 @@
 		
 		
 		<div id="footer">
+
+			<div id="bottombar">
+				{widgets pos=bottom}
+					<div id="{$id}" class="bottombar">
+					<h4>{$subject}</h4>
+					{$content}
+					</div>
+				{/widgets}
+			</div>
+
 			{action hook=wp_footer}
 			
 			<!--
