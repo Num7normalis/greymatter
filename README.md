@@ -12,6 +12,6 @@ A modern FlatPress theme in tones of dark grey, inspired by a theme available fo
 5. Select the greymatter theme in your AdminCP's themes section. 
 
 ###Support
-GreyMatter is developped and maintained by Marc Thibeault: http://www.marcthibeault.com
+GreyMatter is developped and maintained by Num7: https://num7.paranormalis.com
 
-Feel free to contact me via my personal website (http://www.marcthibeault.com) or on the official FlatPress forum (http://flatpress.org/vanilla2/) for support request, question or suggestion. 
+Feel free to contact me via my personal website (https://num7.paranormalis.com) or on the official FlatPress forum (http://flatpress.org/vanilla2/) for support request, question or suggestion. 

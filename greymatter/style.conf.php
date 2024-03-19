@@ -1,19 +1,19 @@
 <?php
 /*  
 Style Name: Grey Matter
-Style URI: http://www.marcthibeault.com
+Style URI: https://num7.paranormalis.com
 Description: Default Grey Matter style
 Version: 1.0
-Author: Marc Thibeault
-Author URI: http://www.marcthibeault.com
+Author: Num7
+Author URI: https://num7.paranormalis.com
 */
 
 
 
 	
 	$style['name'] = 'greymatter';
-	$style['author'] = 'Marc Thibeault';
-	$style['www'] = 'http://www.marcthibeault.com';
+	$style['author'] = 'Num7';
+	$style['www'] = 'https://num7.paranormalis.com';
 	
 	$style['version'] = 1.1;
 		

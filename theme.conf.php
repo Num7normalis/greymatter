@@ -1,17 +1,17 @@
 <?php
 /*  
 Theme Name: Grey Matter
-Theme URI: http://www.marcthibeault.com
+Theme URI: https://num7.paranormalis.com
 Description: A modern FlatPress theme in tones of dark grey
 Version: 1.0
-Author: Marc Thibeault
-Author URI: http://www.marcthibeault.com
+Author: Num7
+Author URI: https://num7.paranormalis.com
 */
 
 
 	$theme['name'] = 'greymatter';
-	$theme['author'] = 'Marc Thibeault';
-	$theme['www'] = 'http://www.marcthibeault.com';
+	$theme['author'] = 'Num7';
+	$theme['www'] = 'https://num7.paranormalis.com';
 	$theme['description'] = 'A modern FlatPress theme in tones of dark grey';
 	
 	
