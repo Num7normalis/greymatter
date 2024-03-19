@@ -1,4 +1,4 @@
-{include file=cpheader.tpl}
+{include file="cpheader.tpl"}
 
 		<div id="cpmain">
 			
