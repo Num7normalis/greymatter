@@ -10,14 +10,11 @@ Grey Matter CSS Styles
 <<<<<<< HEAD
 =======
 
->>>>>>> 109664842ba0aaec1b8e462a3fdcee470110a499
 /* ===== VARIOUS ===== */
 .buttonbar input {
-	padding: .3em;
 	background: #bdbdbd url(../imgs/buttonsh.png) repeat-x;
 }
 .buttonbar input:hover {
-	padding: .3em;
 	background: #d3d3d3 url(../imgs/buttonsh2.png) repeat-x;
 }
 
@@ -33,7 +30,7 @@ h2 {
 }
 
 body {
-	background: #333;
+	background: #222;
 	font: 300 14px 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 	min-width: 1000px;
 	}
@@ -179,11 +176,16 @@ textarea.code {
 	padding-left: 1em
 }
 
-#admin-bbcode-toolbar p { display: inline }
+#admin-bbcode-toolbar {
+	Background: white;
+	Color: black;
+	border: 1px solid black;
+	vertical-align: center;
+}
+
+#admin-bbcode-toolbar p { display: inline; }
 
 #admin-bbcode-toolbar select { width: 10em }
-
-
 
 #admin-content table { width: 100%; }
 
